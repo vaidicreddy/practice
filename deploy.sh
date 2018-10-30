@@ -1,5 +1,5 @@
 #!/bin/bash
-ENV =$1
+ENV=$1
 if [ $ENV = "QA" ]; then
  for i in 'cat ip.txt'
   do
